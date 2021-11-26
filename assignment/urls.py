@@ -8,5 +8,5 @@ from . import views
 comments
 '''
 urlpatterns = [
-    path('assignment/', views.StudentAssignment.as_view(), name='all_assignments_list')
+    path('assignment/', views.StudentAssignment.as_view(), name='student assignments')
 ]
